@@ -1,15 +1,41 @@
 textarea{
-    width: 80%;
-    height: 12vh;
+    width: 50%;
+    height: 20vh;
     display: block;
     margin: 1rem;
     padding: 1rem;
+    position: relative;
+    left:300px;
+    
 }
 
 #output{
     border: 1px solid black;
-    height: 10vh;
-    width: 80%;
+    height: 20vh;
+    width: 50%;
     margin: 1rem;
     padding: 1rem;
+    position: relative;
+    left: 300px;
+}
+
+nav{
+    text-align: center;
+    background-color: #F2C94C;
+}
+
+#btn-translate{
+    background-color: #fbbf24;
+    border: 0px;
+    font-size: larger;
+    margin: 1rem;
+    padding: 1rem;
+    position: relative;
+    left: 300px;
+
+}
+
+#txt-output{
+    position: relative;
+    left: 314px;
 }
