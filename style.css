@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Montserrat&display=swap');
+
+body{
+    font-family: 'Kalam', cursive;
+    color: var(--black);
+    margin: 0;
+}
+
+:root{
+    --primary: #F2C94C;
+    --black: #333333;
+    --width-break: 600px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
 textarea{
     width: 50%;
     height: 20vh;
@@ -21,17 +39,18 @@ textarea{
 
 nav{
     text-align: center;
-    background-color: #F2C94C;
+    background-color: var(--primary);
 }
 
 #btn-translate{
-    background-color: #fbbf24;
+    background-color: var(--primary);
     border: 0px;
     font-size: larger;
     margin: 1rem;
     padding: 1rem;
     position: relative;
     left: 300px;
+    font-family: 'Kalam', cursive;
 
 }
 
