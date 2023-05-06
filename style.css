@@ -17,24 +17,22 @@ body{
 }
 
 textarea{
-    width: 50%;
-    height: 20vh;
+    box-sizing: border-box;
     display: block;
-    margin: 1rem;
-    padding: 1rem;
-    position: relative;
-    left:300px;
-    
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
 }
 
-#output{
-    border: 1px solid black;
-    height: 20vh;
-    width: 50%;
-    margin: 1rem;
-    padding: 1rem;
-    position: relative;
-    left: 300px;
+#translate-output{
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow: scroll;
+    border: 1px solid var(--black);
 }
 
 nav{
@@ -42,19 +40,33 @@ nav{
     background-color: var(--primary);
 }
 
-#btn-translate{
-    background-color: var(--primary);
-    border: 0px;
-    font-size: larger;
-    margin: 1rem;
+main{
+    margin: auto;
     padding: 1rem;
-    position: relative;
-    left: 300px;
+    max-width: var(--width-break);
+}
+
+button{
+    background-color: var(--primary);
+    border: none;
+    font-size: large;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
     font-family: 'Kalam', cursive;
+    cursor: pointer;
 
 }
 
-#txt-output{
-    position: relative;
-    left: 314px;
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary);
+    text-align: center;
+}
+
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
 }
